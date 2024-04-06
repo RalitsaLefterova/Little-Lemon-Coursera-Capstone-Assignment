@@ -1,6 +1,6 @@
 # Little Lemon Website - Coursera Assignment
 
-# This is a final assignment of the 'Front-End Developer Capstone' from 'Meta Front-End Developer Professional Certificate'
+### This is a final assignment of the 'Front-End Developer Capstone' from 'Meta Front-End Developer Professional Certificate'
 
 # Getting Started with Create React App
 
