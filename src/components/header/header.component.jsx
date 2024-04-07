@@ -1,27 +1,36 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/Logo.svg";
+
+import "./header.style.css";
 
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="Little Lemon Logo" />
+      <Link to="/">
+        <img src={logo} alt="Little Lemon Logo" />
+      </Link>
+
       <nav>
         <ul>
           <li>
-            <a href="/">Nav item 1</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/">Nav item 2</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/">Nav item 3</a>
+            <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <a href="/">Nav item 4</a>
+            <Link to="/booking">Reservation</Link>
           </li>
           <li>
-            <a href="/">Nav item 5</a>
+            <Link to="/order">Order online</Link>
+          </li>
+          <li>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </nav>

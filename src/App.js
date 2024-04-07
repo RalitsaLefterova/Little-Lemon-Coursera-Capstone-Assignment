@@ -1,14 +1,19 @@
-import Header from "./components/header/header.component";
-import Footer from "./components/footer/footer.component";
+import { Routes, Route } from "react-router-dom";
+
+import LayoutRestaurantRpl from "./components/layout/layout.component";
+import HomePage from "./components/home/home.component";
 
 import "./styles/main.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <main>Main content of the website here...</main>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<LayoutRestaurantRpl />}>
+          <Route index element={<HomePage />}></Route>
+          {/* <Route path="/booking" element={<BookingPage />}></Route> */}
+        </Route>
+      </Routes>
     </>
   );
 }
