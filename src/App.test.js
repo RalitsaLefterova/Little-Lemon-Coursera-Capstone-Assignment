@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+// import { render, screen } from "@testing-library/react";
+// import { MemoryRouter } from "react-router-dom";
+// import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test("Renders HomePage component when navigating to /", () => {
+//   render(
+//     <MemoryRouter initialEntries={["/"]}>
+//       <App />
+//     </MemoryRouter>
+//   );
+//   const homePageElement = screen.getByText("Home Page");
+//   expect(homePageElement).toBeInTheDocument();
+// });

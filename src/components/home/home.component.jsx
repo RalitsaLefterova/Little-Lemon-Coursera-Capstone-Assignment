@@ -1,7 +1,11 @@
 import "./home.style.css";
 
 const HomePage = () => {
-  return <main>Main content of the website here...</main>;
+  return (
+    <>
+      <h1>Home page content here...</h1>
+    </>
+  );
 };
 
 export default HomePage;

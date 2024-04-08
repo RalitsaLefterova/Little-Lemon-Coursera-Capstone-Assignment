@@ -3,14 +3,18 @@ import { Outlet } from "react-router-dom";
 import Header from "../header/header.component";
 import Footer from "../footer/footer.component";
 
-const LayoutRestaurantRpl = () => {
+import "./main-layout.style.css";
+
+const MainLayoutRestaurantRpl = () => {
   return (
     <>
       <Header />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </>
   );
 };
 
-export default LayoutRestaurantRpl;
+export default MainLayoutRestaurantRpl;
