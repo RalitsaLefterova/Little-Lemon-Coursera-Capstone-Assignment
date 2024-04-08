@@ -1,6 +1,5 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-s;
 import BookingPage from "./booking-page.component";
 import BookingForm from "../booking-form/booking-form.component";
 import { initializeTimes } from "../../data/initializeTimes";
