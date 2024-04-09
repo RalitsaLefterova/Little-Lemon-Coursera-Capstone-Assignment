@@ -18,10 +18,11 @@ test("Renders the BookingForm heading", () => {
       <BookingPage />
     </Router>
   );
+
   const headingElement = screen.getByText(
     "Welcome to our restaurant reservation form!"
   );
-  console.log({ headingElement });
+
   expect(headingElement).toBeInTheDocument();
 });
 
@@ -54,8 +55,6 @@ describe("fetchAPI function", () => {
   it("should return an array of available times", () => {
     const date = new Date();
     const mockData = fetchAPI(date);
-
-    console.log({ mockData });
 
     const availableTimes = mockData
       .filter((time) => time.available)

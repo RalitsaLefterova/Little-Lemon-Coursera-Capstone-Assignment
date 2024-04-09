@@ -17,12 +17,12 @@ const BookingForm = ({
       phoneNumber: "",
       date: "",
       time: "",
-      guests: 1,
+      guests: "",
       occasion: "",
       comment: "",
     },
     onSubmit: (values) => {
-      console.log("on submit:", values);
+      console.log("rpl: on submit:", values);
       handleSubmitForm(values);
     },
     validationSchema: Yup.object({
@@ -62,7 +62,9 @@ const BookingForm = ({
           }
         />
         {formik.touched.fullName && formik.errors.fullName ? (
-          <span className="rpl-error-message">{formik.errors.fullName}</span>
+          <span data-testid="fullNameError" className="rpl-error-message">
+            {formik.errors.fullName}
+          </span>
         ) : null}
       </div>
       <div className="rpl-form-block-control full-width">
@@ -79,7 +81,9 @@ const BookingForm = ({
           }
         />
         {formik.touched.email && formik.errors.email ? (
-          <span className="rpl-error-message">{formik.errors.email}</span>
+          <span data-testid="emailError" className="rpl-error-message">
+            {formik.errors.email}
+          </span>
         ) : null}
       </div>
       <div className="rpl-form-block-control full-width">
@@ -96,7 +100,9 @@ const BookingForm = ({
           }
         />
         {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
-          <span className="rpl-error-message">{formik.errors.phoneNumber}</span>
+          <span data-testid="phoneNumberError" className="rpl-error-message">
+            {formik.errors.phoneNumber}
+          </span>
         ) : null}
       </div>
 
