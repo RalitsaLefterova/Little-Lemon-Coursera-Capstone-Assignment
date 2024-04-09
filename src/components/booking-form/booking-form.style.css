@@ -6,3 +6,38 @@ form {
   border: 1px solid gray;
   border-radius: 10px;
 }
+
+.rpl-form-block-control.full-width {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rpl-form-block-control.full-width > * {
+  margin-bottom: 10px;
+}
+
+.rpl-form-block-combination-control.full-width {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.rpl-form-block-control.half-width {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rpl-form-block-control.half-width > * {
+  margin-bottom: 10px;
+}
+
+.rpl-input-error {
+  border: 1px solid red;
+}
+
+.rpl-disabled-btn {
+  cursor: not-allowed;
+  background: rgba(gray, 0.8);
+}
