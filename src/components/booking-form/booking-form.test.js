@@ -1,6 +1,7 @@
 import React from "react";
 import { screen, render, fireEvent, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { act } from "react-dom/test-utils";
 
 import BookingForm from "./booking-form.component";
 
@@ -157,42 +158,44 @@ test("render and submit a booking form that utilizes Formik", async () => {
   );
   const occaions = mockOccasions;
 
-  userEvent.type(screen.getByLabelText("Full Name"), "Ralitsa Lefterova");
+  await act(async () => {
+    userEvent.type(screen.getByLabelText("Full Name"), "Ralitsa Lefterova");
 
-  userEvent.type(screen.getByLabelText("Email"), "test@example.com");
+    userEvent.type(screen.getByLabelText("Email"), "test@example.com");
 
-  userEvent.type(screen.getByLabelText("Phone number"), "1234567890");
+    userEvent.type(screen.getByLabelText("Phone number"), "1234567890");
 
-  userEvent.type(
-    screen.getByLabelText("Select the date for your reservation:"),
-    "2024-04-10"
-  );
+    userEvent.type(
+      screen.getByLabelText("Select the date for your reservation:"),
+      "2024-04-10"
+    );
 
-  userEvent.selectOptions(
-    screen.getByLabelText("Choose the preferred time for your reservation:"),
-    "10:00"
-  );
+    userEvent.selectOptions(
+      screen.getByLabelText("Choose the preferred time for your reservation:"),
+      "10:00"
+    );
 
-  userEvent.type(
-    screen.getByLabelText(
-      "Specify the number of guests joining for the reservation:"
-    ),
-    "2"
-  );
+    userEvent.type(
+      screen.getByLabelText(
+        "Specify the number of guests joining for the reservation:"
+      ),
+      "2"
+    );
 
-  userEvent.selectOptions(
-    screen.getByLabelText(
-      "Let us know if you're celebrating any special occasion:"
-    ),
-    "Birthday"
-  );
+    userEvent.selectOptions(
+      screen.getByLabelText(
+        "Let us know if you're celebrating any special occasion:"
+      ),
+      "Birthday"
+    );
 
-  userEvent.type(
-    screen.getByLabelText("Your message"),
-    "This is a test message."
-  );
+    userEvent.type(
+      screen.getByLabelText("Your message"),
+      "This is a test message."
+    );
 
-  userEvent.click(screen.getByRole("button", { name: /book now/i }));
+    userEvent.click(screen.getByRole("button", { name: /book now/i }));
+  });
 
   await waitFor(() =>
     expect(handleSubmit).toHaveBeenCalledWith({

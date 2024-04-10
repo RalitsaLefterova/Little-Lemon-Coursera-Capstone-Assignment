@@ -1,4 +1,4 @@
-import { Formik, useFormik } from "formik";
+import { useFormik } from "formik";
 import * as Yup from "yup";
 
 import { occasions } from "../../data/ocasions";
@@ -22,7 +22,6 @@ const BookingForm = ({
       comment: "",
     },
     onSubmit: (values) => {
-      console.log("rpl: on submit:", values);
       handleSubmitForm(values);
     },
     validationSchema: Yup.object({
@@ -47,7 +46,11 @@ const BookingForm = ({
   });
 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <form
+      role="form"
+      aria-labelledby="booking-table-form-little-lemon"
+      onSubmit={formik.handleSubmit}
+    >
       <div className="rpl-form-block-control full-width">
         <label htmlFor="fullName">Full Name</label>
         <input
@@ -60,6 +63,9 @@ const BookingForm = ({
               ? "rpl-input-error"
               : null
           }
+          aria-label="Full Name"
+          aria-invalid={!(formik.touched.fullName && formik.errors.fullName)}
+          aria-describedby="fullNameError"
         />
         {formik.touched.fullName && formik.errors.fullName ? (
           <span data-testid="fullNameError" className="rpl-error-message">
@@ -119,7 +125,6 @@ const BookingForm = ({
             value={formik.values.date}
             onBlur={formik.handleBlur}
             onChange={(e) => {
-              console.log("field value change");
               formik.handleChange(e);
               handleUpdateAvailableTimes(new Date(e.target.value));
             }}
@@ -211,8 +216,10 @@ const BookingForm = ({
 
       <button
         type="submit"
+        aria-label="Book Now"
         className={!(formik.dirty && formik.isValid) ? "rpl-disabled-btn" : ""}
         disabled={!(formik.dirty && formik.isValid)}
+        aria-disabled={!(formik.dirty && formik.isValid)}
       >
         Book Now
       </button>

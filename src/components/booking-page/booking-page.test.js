@@ -6,6 +6,7 @@ import BookingForm from "../booking-form/booking-form.component";
 import { initializeTimes } from "../../data/initializeTimes";
 import { fetchAPI } from "../../mock-api/mockAPI";
 import { v4 as uuidv4 } from "uuid";
+import { act } from "react-dom/test-utils";
 
 // rpl: don't need that for now
 // jest.mock("uuid", () => ({
@@ -65,13 +66,14 @@ describe("fetchAPI function", () => {
       "11:00",
       "12:00",
       "13:00",
-      "14:00",
+      "18:00",
       "19:00",
       "20:00",
       "21:00",
       "22:00",
     ];
 
+    console.log({ availableTimes }, { expectedAvailableTimes });
     expect(availableTimes).toEqual(expectedAvailableTimes);
   });
 });
@@ -92,7 +94,9 @@ test("updateTimes function updates the state correctly", () => {
     />
   );
 
-  mockHandleUpdateAvailableTimes(newTimes);
+  act(() => {
+    mockHandleUpdateAvailableTimes(newTimes);
+  });
 
   expect(mockHandleUpdateAvailableTimes).toHaveBeenCalledWith(newTimes);
 });

@@ -55,7 +55,9 @@ const BookingPage = () => {
 
   return (
     <div className="booking-page-container">
-      <h2>Welcome to our restaurant reservation form!</h2>
+      <h2 id="booking-form-title">
+        Welcome to our restaurant reservation form!
+      </h2>
       <p>
         This form allows you to reserve a table at our restaurant for your
         upcoming dining experience. Please fill out the following details to
