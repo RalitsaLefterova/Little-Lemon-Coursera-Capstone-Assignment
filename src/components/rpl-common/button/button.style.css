@@ -1,0 +1,24 @@
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button > * {
+  margin: auto 5px;
+  vertical-align: middle;
+}
+
+.main-button {
+  padding: 10px 30px;
+  background-color: var(--primary-color-viridian-green);
+  border: 1px solid var(--primary-color-viridian-green);
+  color: var(--white);
+}
+
+.main-button:hover {
+  background-color: var(---maui-mist);
+  color: var(--primary-color-viridian-green);
+}

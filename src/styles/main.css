@@ -1,5 +1,6 @@
 @import "./_fonts.css";
 @import "./_reset.css";
+@import "./_color.css";
 
 #root {
   display: grid;
@@ -7,8 +8,9 @@
   grid-template-rows: auto auto auto;
   gap: 20px;
   min-height: 100vh;
+  font-size: 16px;
 }
 
 .rpl-error-message {
-  color: #ff0000;
+  color: var(--error);
 }
