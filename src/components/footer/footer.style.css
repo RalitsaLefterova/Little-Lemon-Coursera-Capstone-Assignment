@@ -1,9 +1,102 @@
 footer {
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: var(--primary-color-viridian-green);
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
-footer {
-  grid-row: 3;
-  height: 200px;
+hr {
+  margin: 30px 0;
+  width: 50%;
+  height: 1px;
+  background-color: var(--patina);
+}
+
+.footer-rpl-data {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  vertical-align: top;
+  gap: 60px;
+  padding: 10px;
+  color: var(--white);
+}
+
+/* @media (max-width: 900px) {
+  .footer-rpl-data {
+  }
+} */
+
+.footer-rpl-data img {
+  width: 200px;
+  height: auto;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--opal);
+}
+
+.footer-rpl-data p,
+.footer-rpl-data span,
+.footer-rpl-data ul li {
+  padding-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.schedule-pair {
+  padding: 10px 0 0;
+}
+
+.footer-rpl-data p {
+  width: 300px;
+}
+
+.navigation a {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+  color: var(--opal);
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.socials a {
+  color: var(--white);
+}
+
+.socials a:hover {
+  color: var(--opal);
+}
+
+.socials svg {
+  width: 25px;
+  height: auto;
+}
+
+.footer-rpl-copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--patina);
 }
