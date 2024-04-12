@@ -1,0 +1,26 @@
+section {
+  margin: 0 auto;
+  /* padding: 50px; */
+}
+
+#specials-title {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.specials-heading,
+.specials-container {
+  width: 1060px;
+  margin: 0 auto;
+  color: var(--primary-color-viridian-green);
+}
+
+.specials-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: center;
+  padding: 40px;
+}
