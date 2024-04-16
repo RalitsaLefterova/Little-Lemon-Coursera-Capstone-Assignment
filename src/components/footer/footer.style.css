@@ -10,6 +10,66 @@ footer {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
+  width: 100vw;
+  color: var(--white);
+}
+
+.grid-wrapper {
+  width: 70vw;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 20px;
+}
+
+#grid > div:first-child {
+  grid-column: 1 / span 2;
+}
+
+@media (max-width: 1250px) {
+  .grid-wrapper {
+    width: 80%;
+  }
+
+  #grid > div:nth-child(3) {
+    grid-row: 2;
+  }
+
+  #grid > div:last-child {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 680px) {
+  .grid-wrapper {
+    width: 90%;
+  }
+
+  #grid > div:nth-child(2) {
+    grid-row: 2;
+  }
+
+  #grid > div:last-child {
+    grid-row: 3;
+  }
+}
+
+#grid > div {
+  font-size: 30px;
+  padding: 0.5em;
+  text-align: left;
+  max-width: 400px;
+  /* border: 1px solid var(--white); */
+}
+
+.logo-footer {
+  width: 160px;
+  height: auto;
 }
 
 hr {
@@ -19,7 +79,7 @@ hr {
   background-color: var(--patina);
 }
 
-.footer-rpl-data {
+/* .footer-rpl-data {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -34,12 +94,8 @@ hr {
   }
 } */
 
-.footer-rpl-data img {
-  width: 200px;
-  height: auto;
-}
-
-h4 {
+footer h4 {
+  padding-bottom: 10px;
   font-size: 0.9rem;
   font-weight: 400;
   font-style: normal;
@@ -47,32 +103,23 @@ h4 {
   color: var(--opal);
 }
 
-.footer-rpl-data p,
-.footer-rpl-data span,
-.footer-rpl-data ul li {
+.footer-logo-socials p,
+.footer-navigation ul li,
+.footer-address p {
   padding-top: 10px;
   font-size: 0.9rem;
   font-weight: 300;
   text-align: left;
 }
 
-.schedule-pair {
-  padding: 10px 0 0;
-}
-
-.footer-rpl-data p {
-  width: 300px;
-}
-
-.navigation a {
+.footer-schedule span {
   font-size: 0.9rem;
   font-weight: 300;
-  color: var(--white);
+  text-align: left;
 }
 
-.navigation a:hover {
-  text-decoration: underline;
-  color: var(--opal);
+#grid div p {
+  width: 100%;
 }
 
 .socials {
@@ -95,8 +142,48 @@ h4 {
   height: auto;
 }
 
+.schedule-pair {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer-navigation a {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.footer-navigation a:hover {
+  text-decoration: underline;
+  color: var(--opal);
+}
+
 .footer-rpl-copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 40px;
   font-size: 0.9rem;
   font-weight: 300;
   color: var(--patina);
+}
+
+.devider-copyright {
+  padding: 0 10px;
+}
+
+@media (max-width: 850px) {
+  .footer-rpl-copy {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .devider-copyright {
+    display: none;
+  }
 }

@@ -2,11 +2,14 @@
 @import "./_reset.css";
 @import "./_color.css";
 
+body {
+  padding-top: 80px;
+}
+
 #root {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
-  gap: 20px;
   min-height: 100vh;
   font-size: 16px;
 }
