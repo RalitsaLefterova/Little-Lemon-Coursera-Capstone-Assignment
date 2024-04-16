@@ -17,3 +17,7 @@ body {
 .rpl-error-message {
   color: var(--error);
 }
+
+section {
+  width: 100%;
+}

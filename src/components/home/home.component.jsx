@@ -7,6 +7,7 @@ import Specials from "../specials/specials.component";
 import Button from "../rpl-common/button/button.component";
 
 import "./home.style.css";
+import Testimonials from "../testimonials/testimonials.component";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -29,6 +30,9 @@ const HomePage = () => {
         <div className="specials-container">
           <Specials />
         </div>
+      </section>
+      <section>
+        <Testimonials />
       </section>
     </>
   );

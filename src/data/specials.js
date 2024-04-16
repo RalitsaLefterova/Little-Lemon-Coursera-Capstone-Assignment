@@ -1,11 +1,11 @@
-import bruschettaImageRplca from "../assets/images/bruschetta-rplca-dish.jpg";
-import greekSaladImageRplca from "../assets/images/greek-salad-rplca-dish.jpg";
-import grilledFishImageRplca from "../assets/images/grilled-fish-rplca-dish.jpg";
-import lemonLushImageRplca from "../assets/images/lemon-lush-rplca-dessert.jpg";
-import friedCalamariRplca from "../assets/images/fried-calamari-with-lemon-mayonnaise-rplca-dish.jpg";
-import spicyShrimpSpaghettiImageRplca from "../assets/images/spicy-shrimp-spaghetti-rplca-dish.jpg";
-import shakshukaImageRplca from "../assets/images/shakshuka-rplca-dish.jpg";
-import bakedCodWithLemonAndGarlicImageRplca from "../assets/images/baked-cod-with-lemon-and-garlic-rplca-dish.jpg";
+import bruschettaImageRplca from "../assets/images/specials/bruschetta-rplca-dish.jpg";
+import greekSaladImageRplca from "../assets/images/specials/greek-salad-rplca-dish.jpg";
+import grilledFishImageRplca from "../assets/images/specials/grilled-fish-rplca-dish.jpg";
+import lemonLushImageRplca from "../assets/images/specials/lemon-lush-rplca-dessert.jpg";
+import friedCalamariRplca from "../assets/images/specials/fried-calamari-with-lemon-mayonnaise-rplca-dish.jpg";
+import spicyShrimpSpaghettiImageRplca from "../assets/images/specials/spicy-shrimp-spaghetti-rplca-dish.jpg";
+import shakshukaImageRplca from "../assets/images/specials/shakshuka-rplca-dish.jpg";
+import bakedCodWithLemonAndGarlicImageRplca from "../assets/images/specials/baked-cod-with-lemon-and-garlic-rplca-dish.jpg";
 
 export const specials = [
   {
