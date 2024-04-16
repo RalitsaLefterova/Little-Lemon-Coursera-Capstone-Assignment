@@ -97,13 +97,6 @@ nav.open {
     row-gap: 20px;
   }
 
-  /* .nav-item {
-    padding-bottom: 20px;
-    width: 100%;
-    border-bottom: 1px solid var(--patina);
-    text-align: center;
-  } */
-
   .nav-link {
     font-size: 1.1rem;
     color: var(--white);

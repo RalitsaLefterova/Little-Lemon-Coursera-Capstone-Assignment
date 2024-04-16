@@ -24,3 +24,20 @@ section {
   vertical-align: center;
   padding: 40px;
 }
+
+@media (max-width: 1000px) {
+  .specials-heading,
+  .specials-container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 740px) {
+  .specials-heading {
+    width: 100%;
+  }
+
+  .specials-container {
+    width: 380px;
+  }
+}
