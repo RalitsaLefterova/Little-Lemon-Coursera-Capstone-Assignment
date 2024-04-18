@@ -1,9 +1,4 @@
 main {
-  padding: 20px 0;
-  background-color: #f2f2f2;
-}
-
-main {
   grid-row: 2;
   min-height: calc(100vh - 300px);
 }

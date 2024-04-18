@@ -8,6 +8,7 @@ import Button from "../rpl-common/button/button.component";
 
 import "./home.style.css";
 import Testimonials from "../testimonials/testimonials.component";
+import WhyUs from "../why-us/why-us.component";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section>
+      <section className="specials-section-container">
         <div className="specials-heading">
           <h1 id="specials-title">Specials</h1>
           <Button handleClick={handleGoToMenuList} classes="main-button">
@@ -33,6 +34,9 @@ const HomePage = () => {
       </section>
       <section>
         <Testimonials />
+      </section>
+      <section className="why-us-overview-container">
+        <WhyUs />
       </section>
     </>
   );

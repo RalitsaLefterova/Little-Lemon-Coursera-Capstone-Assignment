@@ -30,11 +30,6 @@ const Footer = () => {
               Join us for a memorable dining experience that will transport you
               to the sun-kissed shores and vibrant markets of the Mediterranean.
             </p>
-            {/* Visit us at <strong>Little Lemon</strong> to savor the authentic
-                        flavors of the Mediterranean, where every dish is crafted with
-                        passion and precision. */}
-            {/* Explore our diverse menu, brimming with tantalizing
-                      dishes that capture the essence of the Mediterranean region.  */}
             <div className="socials">
               <Link to="https://www.facebook.com/" target="_blank">
                 <FontAwesomeIcon icon={faSquareFacebook} />
