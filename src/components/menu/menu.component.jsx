@@ -1,7 +1,13 @@
+import UnderConstruction from "../under-construction/under-construction";
+
 import "./menu.style.css";
 
 const MenuPage = () => {
-  return <>Menu page content here...</>;
+  return (
+    <section className="menu-section-container">
+      <UnderConstruction feature="'Menu'" />
+    </section>
+  );
 };
 
 export default MenuPage;
