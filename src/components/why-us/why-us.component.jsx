@@ -2,13 +2,22 @@ import "./why-us.style.css";
 
 import imageMarioAndAdrian from "../../assets/images/Mario-and-Adrian-A.jpg";
 import imageRestaurantChef from "../../assets/images/restaurant-chef-B.jpg";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const WhyUs = () => {
+  const whyUsRef = useRef(null);
+
   useEffect(() => {
     const scrollHandler = () => {
+      // rpl: old functionality
+      // const targetElement = document.querySelector(".why-us-container");
+      // const targetPosition = targetElement.getBoundingClientRect().top;
+
+      const targetPosition = whyUsRef.current.getBoundingClientRect().top;
+      const triggerPosition = window.innerHeight - targetPosition / 2;
       let scrollPosition = window.scrollY;
-      if (scrollPosition > 100) {
+
+      if (scrollPosition > triggerPosition) {
         document.querySelector(".image1").style.transform =
           "translateX(0) translateY(0)";
         document.querySelector(".image2").style.transform =
@@ -29,7 +38,7 @@ const WhyUs = () => {
   }, []);
 
   return (
-    <div className="why-us-container">
+    <div className="why-us-container" ref={whyUsRef}>
       <div className="images-container">
         <div className="images-wrapper">
           <img
