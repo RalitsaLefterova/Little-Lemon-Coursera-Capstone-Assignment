@@ -87,3 +87,14 @@
     width: 80vw;
   }
 }
+
+@media (max-width: 660px) {
+  .images-wrapper {
+    width: 100vw;
+    height: 430px;
+  }
+
+  .image {
+    width: 260px;
+  }
+}

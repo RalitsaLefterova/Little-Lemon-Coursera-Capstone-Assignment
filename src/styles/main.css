@@ -3,7 +3,7 @@
 @import "./_color.css";
 
 body {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 #root {
@@ -19,5 +19,5 @@ body {
 }
 
 section {
-  width: 100%;
+  width: 100vw;
 }

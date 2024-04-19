@@ -12,7 +12,8 @@ header {
   align-items: center;
   justify-content: space-evenly;
   padding: 0 30px;
-  min-height: 80px;
+  min-height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .logo {

@@ -4,13 +4,6 @@
   background-color: var(--backgrouond-light);
 }
 
-#specials-title {
-  font-family: "Markazi Text", serif;
-  font-optical-sizing: auto;
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
 .specials-heading,
 .specials-container {
   width: 1060px;
@@ -24,6 +17,13 @@
   justify-content: space-between;
   vertical-align: center;
   padding: 40px;
+}
+
+#specials-title {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 @media (max-width: 1000px) {
