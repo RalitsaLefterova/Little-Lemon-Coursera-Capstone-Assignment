@@ -55,19 +55,20 @@ const BookingPage = () => {
 
   return (
     <div className="booking-page-container">
-      <h2 id="booking-form-title">
-        Welcome to our restaurant reservation form!
-      </h2>
-      <p>
-        This form allows you to reserve a table at our restaurant for your
-        upcoming dining experience. Please fill out the following details to
-        secure your reservation.
-      </p>
-      <BookingForm
-        availableTimes={state.availableTimes}
-        handleUpdateAvailableTimes={updateTimes}
-        handleSubmitForm={submitForm}
-      />
+      <div className="bg-lemon-rpl">
+        <h2 id="booking-form-title">
+          Welcome to our restaurant reservation form!
+        </h2>
+      </div>
+      <div className="restaurant-image-container">
+        {/* <img src={restaurantImage} alt="Little Lemon Restaurant Interior RPL" /> */}
+
+        <BookingForm
+          availableTimes={state.availableTimes}
+          handleUpdateAvailableTimes={updateTimes}
+          handleSubmitForm={submitForm}
+        />
+      </div>
     </div>
   );
 };
