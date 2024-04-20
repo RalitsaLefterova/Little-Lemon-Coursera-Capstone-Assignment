@@ -61,8 +61,6 @@ const BookingPage = () => {
         </h2>
       </div>
       <div className="restaurant-image-container">
-        {/* <img src={restaurantImage} alt="Little Lemon Restaurant Interior RPL" /> */}
-
         <BookingForm
           availableTimes={state.availableTimes}
           handleUpdateAvailableTimes={updateTimes}
