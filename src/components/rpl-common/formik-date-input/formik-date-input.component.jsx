@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormikContext } from "formik";
 
-const FormikDateInput = ({ name, label, min, onChange, fieldId }) => {
+const FormikDateInput = ({ name, label, min, handleChange, fieldId }) => {
   const { getFieldProps, touched, errors } = useFormikContext();
 
   return (
@@ -15,7 +15,7 @@ const FormikDateInput = ({ name, label, min, onChange, fieldId }) => {
         {...getFieldProps(name)}
         onChange={(e) => {
           getFieldProps(name).onChange(e);
-          if (onChange) onChange(e);
+          if (handleChange) handleChange(e);
         }}
         className={touched[name] && errors[name] ? "rpl-input-error" : null}
       />

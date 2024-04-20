@@ -106,10 +106,6 @@ textarea:focus {
   height: 30px;
 }
 
-.booking-form textarea {
-  min-height: 90px;
-}
-
 .booking-form .rpl-input-error {
   border: 1px solid red;
 }

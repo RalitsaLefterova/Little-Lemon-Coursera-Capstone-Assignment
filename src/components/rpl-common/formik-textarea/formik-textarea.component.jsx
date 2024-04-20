@@ -1,6 +1,8 @@
 import React from "react";
 import { useFormikContext } from "formik";
 
+import "./formik-textarea.style.css";
+
 const FormikTextarea = ({ name, label }) => {
   const { getFieldProps, touched, errors } = useFormikContext();
 

@@ -121,7 +121,7 @@ const BookingForm = ({
                   fieldId="res-rpl-date"
                   label="Select the date for your reservation:"
                   min={new Date().toISOString().split("T")[0]}
-                  onChange={(e) =>
+                  handleChange={(e) =>
                     handleUpdateAvailableTimes(new Date(e.target.value))
                   }
                 />
