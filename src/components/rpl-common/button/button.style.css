@@ -3,6 +3,11 @@ button {
   flex-direction: row;
   justify-content: space-evenly;
   border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -21,4 +26,12 @@ button > * {
 .main-button:hover {
   background-color: var(---maui-mist);
   color: var(--primary-color-viridian-green);
+}
+
+.booking-form-btn {
+  font-weight: 500;
+}
+
+.rpl-disabled-btn {
+  cursor: not-allowed;
 }

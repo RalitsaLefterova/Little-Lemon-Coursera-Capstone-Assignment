@@ -24,5 +24,9 @@
   --silver: #d8d8d8;
 
   --backgrouond-light: #f2f2f2;
+  --viridian-green-opacity: rgb(73, 94, 87, 0.8);
   --dark-green-opacity: rgba(35, 47, 43, 0.6);
+  --darker-green-opacity: rgba(35, 47, 43, 0.8);
+  --patina-opacity: rgb(104, 135, 125, 0.4);
+  --white-opacity: rgba(255, 255, 255, 0.8);
 }
