@@ -70,7 +70,7 @@ describe("fetchAPI function", () => {
       "19:00",
     ];
 
-    console.log({ availableTimes }, { expectedAvailableTimes });
+    // console.log('rpl/test:', { availableTimes }, { expectedAvailableTimes });
     expect(availableTimes).toEqual(expectedAvailableTimes);
   });
 });
