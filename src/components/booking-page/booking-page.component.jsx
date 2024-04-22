@@ -42,7 +42,7 @@ const BookingPage = () => {
   const fetchAvailableTimes = (date) => {
     try {
       const availableTimes = fetchAPI(date);
-      console.log({ availableTimes });
+      // console.log('rpl/test', { availableTimes });
       dispatch({ type: "UPDATE_TIMES", payload: availableTimes });
     } catch (error) {
       console.error("Error fetching available times:", error);
