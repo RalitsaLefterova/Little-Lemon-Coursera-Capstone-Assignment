@@ -78,7 +78,7 @@ describe("BookingForm", () => {
     });
 
     // ############### Phone Number input ###############
-    const phoneNumberInput = getByLabelText("Phone number");
+    const phoneNumberInput = getByLabelText("Phone Number");
     expect(phoneNumberInput).toHaveAttribute("type", "text");
     // Case 1: Phone number is empty after blur
     fireEvent.change(phoneNumberInput, { target: { value: "" } });
@@ -122,9 +122,7 @@ describe("BookingForm", () => {
     });
 
     // ############### Time input ###############
-    const timeSelect = getByLabelText(
-      "Choose the preferred time for your reservation:"
-    );
+    const timeSelect = getByLabelText("Choose the time for your reservation:");
     expect(timeSelect).toBeInTheDocument();
     // Case 1: Time is empty after blur
     fireEvent.blur(timeSelect);
@@ -144,7 +142,7 @@ describe("BookingForm", () => {
     );
     expect(guestsInput).toHaveAttribute("type", "number");
     expect(guestsInput).toHaveAttribute("min", "1");
-    expect(guestsInput).toHaveAttribute("max", "10");
+    expect(guestsInput).toHaveAttribute("max", "12");
   });
 });
 
@@ -163,7 +161,7 @@ test("render and submit a booking form that utilizes Formik", async () => {
 
     userEvent.type(screen.getByLabelText("Email"), "test@example.com");
 
-    userEvent.type(screen.getByLabelText("Phone number"), "1234567890");
+    userEvent.type(screen.getByLabelText("Phone Number"), "1234567890");
 
     userEvent.type(
       screen.getByLabelText("Select the date for your reservation:"),
@@ -171,7 +169,7 @@ test("render and submit a booking form that utilizes Formik", async () => {
     );
 
     userEvent.selectOptions(
-      screen.getByLabelText("Choose the preferred time for your reservation:"),
+      screen.getByLabelText("Choose the time for your reservation:"),
       "10:00"
     );
 
