@@ -63,16 +63,14 @@ Please note: Currently, the only functioning feature on this website is the 'Res
 - **Responsive Design**: The website is designed to be fully responsive, ensuring optimal viewing experience across a wide range of devices and screen sizes.
 - **Interactive Elements**: Various interactive elements such as buttons, forms, and navigation menus enhance user engagement and experience.
 - **Content Organization**: The website is structured logically, with clear navigation and well-organized content for easy access and readability.
-- **HTML, CSS, and JavaScript**: The project utilizes a combination of HTML for content structure, CSS for styling, and JavaScript for dynamic functionality.
 - **FontAwesome Icons**: FontAwesome icons are used to enhance visual appeal and provide intuitive navigation.
 - **Formik and Yup**: Formik and Yup are used for form validation to ensure data integrity and user input validation.
-- **React Router**: React Router is used for declarative routing, enabling navigation between different components of the website without page refreshes.
-- **React Items Carousel**: React Items Carousel is used to create a responsive carousel component for showcasing featured items or content.
+- **React Items Carousel**: React Items Carousel is used to create a responsive carousel component for showcasing 'Specials' items on 'Home' page.
 - **UUID**: UUID is used for generating unique identifiers, ensuring data integrity and preventing conflicts.
 
 ## Screenshot
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 ## Design Process
 
@@ -145,7 +143,7 @@ This command will start the development server, and you should be able to access
 
 That's it! You're now ready to explore the project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 ## Unit Testing
 
@@ -175,7 +173,7 @@ npm test
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
@@ -185,4 +183,4 @@ Ralitsa Lefterova - [@your_twitter](https://twitter.com/your_username) - email@e
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
