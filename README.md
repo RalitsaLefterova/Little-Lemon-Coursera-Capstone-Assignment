@@ -98,6 +98,18 @@ During the development of the 'Little Lemon Website', I invested time in creatin
 
 I began the design process by sketching rough wireframes to outline the basic structure and flow of the website. These wireframes served as a blueprint for the layout of each page, helping to ensure a clear and intuitive user experience.
 
+<style>
+  table {
+    width: 100%; /* Ensure table takes up full width of parent */
+    border-collapse: collapse; /* Collapse border spacing */
+  }
+  td {
+    width: 50%; /* Each cell takes up 50% of the table width */
+    vertical-align: top; /* Align content to the top of the cell */
+    padding: 10px; /* Add some padding for spacing */
+  }
+</style>
+
 <details>
   <summary>View wireframes</summary>
 
