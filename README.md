@@ -1,6 +1,6 @@
 # Little Lemon Website - Coursera Assignment
 
-This repository contains the final assignment for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
+This repository contains the final assignment 'Booking a table on the Little Lemon website' for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -9,11 +9,11 @@ This repository contains the final assignment for the ['Front-End Developer Caps
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="#technologies-used">Technologies Used</a></li>
         <li><a href="#features">Features</a></li>
       </ul>
     </li>
-    <li><a href="#screenshots">Screenshots</a></li>
     <li>
       <a href="#design-process">Design Process</a>
       <ul>
@@ -29,11 +29,14 @@ This repository contains the final assignment for the ['Front-End Developer Caps
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 Demo: [Little Lemon](https://example.com)
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+![little-lemon-restaurant-mockup](https://user-images.githubusercontent.com/example.png)
 
 The 'Little Lemon Website' is a web development project created as a part of the 'Front-End Developer Capstone' course on Coursera. It represents a delightful online platform showcasing the flavors of Mediterranean cuisine. One of its features is the convenient online reservation system, that allows guests to effortlessly book a table for an unforgettable dining experience.
 
@@ -43,7 +46,24 @@ Task Overview: Our assignment entails crafting a modern and adaptable front-end 
 
 Please note: Currently, the only functioning feature on this website is the 'Reserve a Table' function. The 'LogIn', 'Menu', and 'Online Order' functionalities are not essential for the assignment and are under construction. Temporary 'under construction' images are displayed on those pages.
 
-<!-- In addition to our online reservation system, our website provides a tantalizing glimpse into our menu, featuring an array of Mediterranean-inspired dishes crafted with the freshest ingredients and traditional recipes. From savory appetizers to mouthwatering entrees and decadent desserts, each dish is prepared with care and passion, capturing the essence of Mediterranean flavors. -->
+### Screenshots
+
+<!-- <table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/image1.png" alt="home-page" /></td>
+    <td><img src="https://user-images.githubusercontent.com/image2.png" alt="home-page" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/image3.png" alt="reservation" /></td>
+    <td><img src="https://user-images.githubusercontent.com/image4.png" alt="reservation" /></td>
+  </tr>
+</table> -->
+
+<details>
+  <summary>View screenshots</summary>
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+</details>
 
 ### Technologies Used
 
@@ -68,9 +88,7 @@ Please note: Currently, the only functioning feature on this website is the 'Res
 - **React Items Carousel**: React Items Carousel is used to create a responsive carousel component for showcasing 'Specials' items on 'Home' page.
 - **UUID**: UUID is used for generating unique identifiers, ensuring data integrity and preventing conflicts.
 
-## Screenshot
-
-<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 ## Design Process
 
@@ -79,6 +97,19 @@ During the development of the 'Little Lemon Website', I invested time in creatin
 ### Wireframes
 
 I began the design process by sketching rough wireframes to outline the basic structure and flow of the website. These wireframes served as a blueprint for the layout of each page, helping to ensure a clear and intuitive user experience.
+
+<details>
+  <summary>View wireframes</summary>
+
+![booking-confirmed-wireframe](https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc)
+
+![home-page-wireframe](https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb)
+
+![reservation-wireframe](https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf)
+
+![about-us-wireframe](https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269)
+
+</details>
 
 ### Prototypes
 
@@ -89,10 +120,6 @@ Once the wireframes were finalized, I transitioned to creating interactive proto
 Screenshots of the wireframes and prototypes created in Figma are provided below. For a more interactive experience, you can access the full Figma project by following the link provided.
 
 [View Figma Project](link_to_figma_project)
-
-![Wireframes](wireframes_screenshot.png)
-
-![Prototypes](prototypes_screenshot.png)
 
 From my Figma account, you can also view the mobile version of the 'Little Lemon Website', which is my final assignment for ['Principles of UX/UI Design'](https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-front-end-developer) course, also part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer).
 
@@ -143,7 +170,7 @@ This command will start the development server, and you should be able to access
 
 That's it! You're now ready to explore the project.
 
-<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 ## Unit Testing
 
@@ -173,14 +200,15 @@ npm test
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 
-<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
 ## Author
 
-Ralitsa Lefterova - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Hi there! I'm Ralitsa Lefterova, a passionate Frontend Developer with a love for creating beautiful and functional web experiences. With a background in Graphic Design and Prepress, I'm dedicated to crafting user-centric solutions that make a positive impact. Feel free to connect with me on LinkedIn or explore my GitHub repositories to learn more about my work.
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+[![linkedin](https://img.shields.io/badge/Ralitsa_Lefterova-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ralitsalefterova/)
 
-<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<!-- [![Github](https://img.shields.io/badge/Ralitsa_Lefterova-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/RalitsaLefterova) -->
+<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
