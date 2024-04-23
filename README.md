@@ -98,31 +98,32 @@ During the development of the 'Little Lemon Website', I invested time in creatin
 
 I began the design process by sketching rough wireframes to outline the basic structure and flow of the website. These wireframes served as a blueprint for the layout of each page, helping to ensure a clear and intuitive user experience.
 
-<style>
-  table {
-    width: 100%; /* Ensure table takes up full width of parent */
-    border-collapse: collapse; /* Collapse border spacing */
-  }
-  td {
-    width: 50%; /* Each cell takes up 50% of the table width */
-    vertical-align: top; /* Align content to the top of the cell */
-    padding: 10px; /* Add some padding for spacing */
-  }
-</style>
-
 <details>
   <summary>View wireframes</summary>
 
-  <table>
-  <tr>
-    <td><p><strong>Home Page Wireframe:</strong></p><img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="250"></td>
-    <td><p><strong>About Us Wireframe:</strong></p><img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="250"></td>
-  </tr>
-  <tr>
-    <td><p><strong>Reservation Wireframe:</strong></p><img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="250"></td>
-    <td><p><strong>Booking Confirmed Wireframe:</strong></p><img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="250"></td>
-  </tr>
-</table>
+  <table style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td style="width: 50%; vertical-align: top; padding: 10px;">
+        <p><strong>Home Page Wireframe:</strong></p>
+        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="350">
+      </td>
+      <td style="width: 50%; vertical-align: top; padding: 10px;">
+        <p><strong>About Us Wireframe:</strong></p>
+        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="350">
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 50%; vertical-align: top; padding: 10px;">
+        <p><strong>Reservation Wireframe:</strong></p>
+        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="350">
+      </td>
+      <td style="width: 50%; vertical-align: top; padding: 10px;">
+        <p><strong>Booking Confirmed Wireframe:</strong></p>
+        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350">
+      </td>
+    </tr>
+  </table>
+</details>
 
   <!-- <div style="display: flex; flex-wrap: wrap;">
     <div style="flex: 1 1 50%;">
