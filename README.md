@@ -1,6 +1,6 @@
 # Little Lemon Website - Coursera Assignment
 
-This repository contains the final assignment 'Booking a table on the Little Lemon website' for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
+This repository contains the final assignment **'Booking a table on the Little Lemon website'** for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -22,7 +22,7 @@ This repository contains the final assignment 'Booking a table on the Little Lem
         <li><a href="#figma-project">Figma Project</a></li>
       </ul>
     </li>
-    <li><a href="#instalation">Instalation</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#unit-testing">Unit Testing</a></li>
     <li><a href="#helpful-resources">Helpful Resources</a></li>
     <li><a href="#author">Author</a></li>
@@ -35,34 +35,19 @@ This repository contains the final assignment 'Booking a table on the Little Lem
 
 Demo: [Little Lemon](https://example.com)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-![little-lemon-restaurant-mockup](https://user-images.githubusercontent.com/example.png)
+**Introduction:** The 'Little Lemon Website' is a web development project created as a part of the 'Front-End Developer Capstone' course on Coursera. It represents a delightful online platform showcasing the flavors of Mediterranean cuisine. One of its features is the convenient online reservation system, that allows guests to effortlessly book a table for an unforgettable dining experience.
 
-The 'Little Lemon Website' is a web development project created as a part of the 'Front-End Developer Capstone' course on Coursera. It represents a delightful online platform showcasing the flavors of Mediterranean cuisine. One of its features is the convenient online reservation system, that allows guests to effortlessly book a table for an unforgettable dining experience.
+**Task Overview:** Our assignment entails crafting a modern and adaptable front-end interface for the Little Lemon application. A key addition to our task is integrating a bookings feature, enhancing the functionality of the app. Additionally, we are tasked with writing comprehensive tests to ensure the reliability of the system and creating design wireframes and prototypes using Figma to guide the development process.
 
-Introduction: Little Lemon is a Mediterranean eatery, owned and operated by a close-knit family. We pride ourselves on infusing traditional Mediterranean recipes with contemporary flair, offering our patrons a one-of-a-kind dining adventure through the flavors of the Mediterranean.
-
-Task Overview: Our assignment entails crafting a modern and adaptable front-end interface for the Little Lemon application. A key addition to our task is integrating a bookings feature, enhancing the functionality of the app. Additionally, we are tasked with writing comprehensive tests to ensure the reliability of the system and creating design wireframes and prototypes using Figma to guide the development process.
-
-Please note: Currently, the only functioning feature on this website is the 'Reserve a Table' function. The 'LogIn', 'Menu', and 'Online Order' functionalities are not essential for the assignment and are under construction. Temporary 'under construction' images are displayed on those pages.
+> **NOTE:** Currently, the only functioning feature on this website is the 'Reserve a Table' function. The 'LogIn', 'Menu', and 'Online Order' functionalities are not essential for the assignment and are under construction. Temporary 'under construction' images are displayed on those pages.
 
 ### Screenshots
 
-<!-- <table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/image1.png" alt="home-page" /></td>
-    <td><img src="https://user-images.githubusercontent.com/image2.png" alt="home-page" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/image3.png" alt="reservation" /></td>
-    <td><img src="https://user-images.githubusercontent.com/image4.png" alt="reservation" /></td>
-  </tr>
-</table> -->
-
 <details>
   <summary>View screenshots</summary>
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+</p>
 </details>
 
 ### Technologies Used
@@ -71,10 +56,9 @@ Please note: Currently, the only functioning feature on this website is the 'Res
 - CSS
 - JavaScript
 - React
-- [![React][React.js]][React-url]
+- React Router
 - Formik
 - Yup
-- React Router
 - React Items Carousel
 - UUID
 
@@ -88,7 +72,7 @@ Please note: Currently, the only functioning feature on this website is the 'Res
 - **React Items Carousel**: React Items Carousel is used to create a responsive carousel component for showcasing 'Specials' items on 'Home' page.
 - **UUID**: UUID is used for generating unique identifiers, ensuring data integrity and preventing conflicts.
 
-<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<!-- DESIGN PROCESS -->
 
 ## Design Process
 
@@ -100,29 +84,22 @@ I began the design process by sketching rough wireframes to outline the basic st
 
 <details>
   <summary>View wireframes</summary>
-
-  <table style="width: 100%; border-collapse: collapse;">
-    <tr>
-      <td style="width: 50%; vertical-align: top; padding: 10px;">
-        <p><strong>Home Page Wireframe:</strong></p>
-        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="350">
-      </td>
-      <td style="width: 50%; vertical-align: top; padding: 10px;">
-        <p><strong>About Us Wireframe:</strong></p>
-        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="350">
-      </td>
-    </tr>
-    <tr>
-      <td style="width: 50%; vertical-align: top; padding: 10px;">
-        <p><strong>Reservation Wireframe:</strong></p>
-        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="350">
-      </td>
-      <td style="width: 50%; vertical-align: top; padding: 10px;">
-        <p><strong>Booking Confirmed Wireframe:</strong></p>
-        <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350">
-      </td>
-    </tr>
-  </table>
+  <p align="center"><strong>Home Page Wireframe:</strong></p>
+  <p align="center">
+    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="350">
+  </p>
+  <p align="center"><strong>About Us Wireframe:</strong></p>
+  <p align="center">
+    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="350">
+  </p>
+  <p align="center"><strong>Reservation Wireframe:</strong></p>
+  <p align="center">
+    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="350">
+  </p>
+  <p align="center"><strong>Booking Confirmed Wireframe:</strong></p>
+  <p align="center">
+    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350">
+  </p>
 </details>
 
   <!-- <div style="display: flex; flex-wrap: wrap;">
@@ -157,7 +134,7 @@ Screenshots of the wireframes and prototypes created in Figma are provided below
 
 From my Figma account, you can also view the mobile version of the 'Little Lemon Website', which is my final assignment for ['Principles of UX/UI Design'](https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-front-end-developer) course, also part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer).
 
-<!-- INSTALATION -->
+<!-- INSTALLATION -->
 
 ## Installation
 
@@ -204,7 +181,7 @@ This command will start the development server, and you should be able to access
 
 That's it! You're now ready to explore the project.
 
-<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+<!-- UNIT TESTING -->
 
 ## Unit Testing
 
@@ -212,9 +189,11 @@ That's it! You're now ready to explore the project.
 
 The 'Little Lemon Website' includes comprehensive testing to ensure the reliability and functionality of its features. The test suite covers various aspects of the application, including:
 
-Routing: Ensuring that navigation between different components of the website functions as expected.
-Booking Form Validation: Verifying that user input in the booking form is properly validated to maintain data integrity.
-Booking Form Submission: Testing the submission process of the booking form to ensure that reservations are processed correctly.
+**_Routing:_** Ensuring that navigation between different components of the website functions as expected.
+
+**_Booking Form Validation:_** Verifying that user input in the booking form is properly validated to maintain data integrity.
+
+**_Booking Form Submission:_** Testing the submission process of the booking form to ensure that reservations are processed correctly.
 
 ### Running Tests
 
@@ -224,7 +203,7 @@ To run the tests, execute the following command in your terminal:
 npm test
 ```
 
-<!-- Helpful Resources -->
+<!-- HELPFUL RESOURCES -->
 
 ## Helpful Resources
 
@@ -236,8 +215,6 @@ TODO: add the website for images
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 
-<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHOR -->
 
 ## Author
@@ -245,6 +222,3 @@ TODO: add the website for images
 Hi there! I'm Ralitsa Lefterova, a passionate Frontend Developer with a love for creating beautiful and functional web experiences. With a background in Graphic Design and Prepress, I'm dedicated to crafting user-centric solutions that make a positive impact. Feel free to connect with me on LinkedIn or explore my GitHub repositories to learn more about my work.
 
 [![linkedin](https://img.shields.io/badge/Ralitsa_Lefterova-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ralitsalefterova/)
-
-<!-- [![Github](https://img.shields.io/badge/Ralitsa_Lefterova-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/RalitsaLefterova) -->
-<p id="readme-top" style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
