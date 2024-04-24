@@ -192,8 +192,6 @@ npm test
 
 ## Helpful Resources
 
-TODO: add the website for images
-
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 - [Malven's Grid Cheatsheet](https://grid.malven.co/)
 - [Img Shields](https://shields.io)
