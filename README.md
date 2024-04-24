@@ -82,7 +82,7 @@ During the development of the 'Little Lemon Website', I invested time in creatin
 
 I began the design process by sketching rough wireframes to outline the basic structure and flow of the website. These wireframes served as a blueprint for the layout of each page, helping to ensure a clear and intuitive user experience.
 
-<details>
+<!-- <details>
   <summary>View wireframes</summary>
 
   <p align="center"><strong>Home Page Wireframe:</strong></p>
@@ -99,13 +99,13 @@ I began the design process by sketching rough wireframes to outline the basic st
   <p align="center">
     <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/4f9b29de-3155-4043-bb6c-0c05788841de" alt="reservation-wireframe" width="350">
   </p>
-  
+
   <p align="center"><strong>Booking Confirmed Wireframe:</strong></p>
   <p align="center">
     <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/07fee170-f70a-47bb-8f2f-2410e418cff1" alt="booking-confirmed-wireframe" width="350">
   </p>
 
-</details>
+</details> -->
 
 ### Prototypes
 
