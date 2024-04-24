@@ -1,4 +1,5 @@
 # Little Lemon Website - Coursera Assignment
+Demo: [Little Lemon](https://example.com)
 
 This repository contains the final assignment **'Booking a table on the Little Lemon website'** for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
 
@@ -33,7 +34,6 @@ This repository contains the final assignment **'Booking a table on the Little L
 
 ## About The Project
 
-Demo: [Little Lemon](https://example.com)
 
 **Introduction:** The 'Little Lemon Website' is a web development project created as a part of the 'Front-End Developer Capstone' course on Coursera. It represents a delightful online platform showcasing the flavors of Mediterranean cuisine. One of its features is the convenient online reservation system, that allows guests to effortlessly book a table for an unforgettable dining experience.
 
