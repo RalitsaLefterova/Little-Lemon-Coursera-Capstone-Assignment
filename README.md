@@ -192,6 +192,8 @@ npm test
 
 ## Helpful Resources
 
+Here are some useful links to assist you with your project. Incorporating them into your workflow can greatly enhance productivity and creativity, making your project a resounding success.
+
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 - [Malven's Grid Cheatsheet](https://grid.malven.co/)
 - [Img Shields](https://shields.io)
