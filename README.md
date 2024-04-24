@@ -84,22 +84,27 @@ I began the design process by sketching rough wireframes to outline the basic st
 
 <details>
   <summary>View wireframes</summary>
+
   <p align="center"><strong>Home Page Wireframe:</strong></p>
   <p align="center">
     <img src="/src/assets/images/readme/home-page-wireframe.jpg" alt="home-page-wireframe" width="350">
   </p>
+
   <p align="center"><strong>About Us Wireframe:</strong></p>
   <p align="center">
-    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="350">
+    <img src="/src/assets/images/readme/about-us-wireframe.jpg" alt="about-us-wireframe" width="350">
   </p>
+
   <p align="center"><strong>Reservation Wireframe:</strong></p>
   <p align="center">
-    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="350">
+    <img src="/src/assets/images/readme/reservation-wireframe.jpg" alt="reservation-wireframe" width="350">
   </p>
+  
   <p align="center"><strong>Booking Confirmed Wireframe:</strong></p>
   <p align="center">
-    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350" style="border-width: 1px;">
+    <img src="/src/assets/images/readme/booking-confirmed-wireframe.jpg" alt="booking-confirmed-wireframe" width="350">
   </p>
+
 </details>
 
 ### Prototypes
