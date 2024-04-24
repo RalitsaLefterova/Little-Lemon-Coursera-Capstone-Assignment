@@ -86,7 +86,7 @@ I began the design process by sketching rough wireframes to outline the basic st
   <summary>View wireframes</summary>
   <p align="center"><strong>Home Page Wireframe:</strong></p>
   <p align="center">
-    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="350">
+    <img src="/src/assets/images/readme/home-page-wireframe.jpg" alt="home-page-wireframe" width="350">
   </p>
   <p align="center"><strong>About Us Wireframe:</strong></p>
   <p align="center">
@@ -98,28 +98,8 @@ I began the design process by sketching rough wireframes to outline the basic st
   </p>
   <p align="center"><strong>Booking Confirmed Wireframe:</strong></p>
   <p align="center">
-    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350">
+    <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="350" style="border-width: 1px;">
   </p>
-</details>
-
-  <!-- <div style="display: flex; flex-wrap: wrap;">
-    <div style="flex: 1 1 50%;">
-      <p><strong>Home Page Wireframe:</strong></p>
-      <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2881aca0-d02a-4309-b60d-00666013becb" alt="home-page-wireframe" width="250">
-    </div>
-    <div style="flex: 1 1 50%;">
-      <p><strong>About Us Wireframe:</strong></p>
-      <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/c609df6b-ce9f-4437-8a74-a6e8db8ec269" alt="about-us-wireframe" width="250">
-    </div>
-    <div style="flex: 1 1 50%; margin-top: 20px;">
-      <p><strong>Reservation Wireframe:</strong></p>
-      <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/2f993ae4-fc1c-4d1b-b192-7cb598f1beaf" alt="reservation-wireframe" width="250">
-    </div>
-    <div style="flex: 1 1 50%; margin-top: 20px;">
-      <p><strong>Booking Confirmed Wireframe:</strong></p>
-      <img src="https://github.com/RalitsaLefterova/little-lemon-coursera-capstone-assignment/assets/11258085/a511f9ea-9e97-4cc9-b89e-1aade3513fdc" alt="booking-confirmed-wireframe" width="250">
-    </div>
-  </div> -->
 </details>
 
 ### Prototypes
