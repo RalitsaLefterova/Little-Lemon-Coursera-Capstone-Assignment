@@ -1,4 +1,5 @@
 # Little Lemon Website - Coursera Assignment
+
 Demo: [Little Lemon](https://example.com)
 
 This repository contains the final assignment **'Booking a table on the Little Lemon website'** for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
@@ -33,7 +34,6 @@ This repository contains the final assignment **'Booking a table on the Little L
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
 
 **Introduction:** The 'Little Lemon Website' is a web development project created as a part of the 'Front-End Developer Capstone' course on Coursera. It represents a delightful online platform showcasing the flavors of Mediterranean cuisine. One of its features is the convenient online reservation system, that allows guests to effortlessly book a table for an unforgettable dining experience.
 
@@ -87,22 +87,22 @@ I began the design process by sketching rough wireframes to outline the basic st
 
   <p align="center"><strong>Home Page Wireframe:</strong></p>
   <p align="center">
-    <img src="/src/assets/images/readme/home-page-wireframe.jpg" alt="home-page-wireframe" width="350">
+    <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/3638f394-114c-448e-83ed-25b6fd34074f" alt="home-page-wireframe" width="350">
   </p>
 
   <p align="center"><strong>About Us Wireframe:</strong></p>
   <p align="center">
-    <img src="/src/assets/images/readme/about-us-wireframe.jpg" alt="about-us-wireframe" width="350">
+    <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/ce8631ee-fe33-438c-81bd-1f7b2cea511c" alt="about-us-wireframe" width="350">
   </p>
 
   <p align="center"><strong>Reservation Wireframe:</strong></p>
   <p align="center">
-    <img src="/src/assets/images/readme/reservation-wireframe.jpg" alt="reservation-wireframe" width="350">
+    <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/4f9b29de-3155-4043-bb6c-0c05788841de" alt="reservation-wireframe" width="350">
   </p>
   
   <p align="center"><strong>Booking Confirmed Wireframe:</strong></p>
   <p align="center">
-    <img src="/src/assets/images/readme/booking-confirmed-wireframe.jpg" alt="booking-confirmed-wireframe" width="350">
+    <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/07fee170-f70a-47bb-8f2f-2410e418cff1" alt="booking-confirmed-wireframe" width="350">
   </p>
 
 </details>
