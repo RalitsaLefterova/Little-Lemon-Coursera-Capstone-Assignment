@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Little-Lemon-Coursera-Capstone-Assignment/static/css/main.e346e202.css",
-    "main.js": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.76d9ec69.js",
+    "main.js": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.8e4e9d7e.js",
     "static/js/453.75523a59.chunk.js": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/453.75523a59.chunk.js",
     "static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.jpg": "/Little-Lemon-Coursera-Capstone-Assignment/static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.67521133fa27d00a32ff.jpg",
     "static/media/cioppino-seafood-tomato-stew.png": "/Little-Lemon-Coursera-Capstone-Assignment/static/media/cioppino-seafood-tomato-stew.bb4e4975efb2d7f5bef7.png",
@@ -26,11 +26,11 @@
     "static/media/delivery-icon.svg": "/Little-Lemon-Coursera-Capstone-Assignment/static/media/delivery-icon.0ecbef31eda860932b64f59bb949f4cd.svg",
     "index.html": "/Little-Lemon-Coursera-Capstone-Assignment/index.html",
     "main.e346e202.css.map": "/Little-Lemon-Coursera-Capstone-Assignment/static/css/main.e346e202.css.map",
-    "main.76d9ec69.js.map": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.76d9ec69.js.map",
+    "main.8e4e9d7e.js.map": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.8e4e9d7e.js.map",
     "453.75523a59.chunk.js.map": "/Little-Lemon-Coursera-Capstone-Assignment/static/js/453.75523a59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e346e202.css",
-    "static/js/main.76d9ec69.js"
+    "static/js/main.8e4e9d7e.js"
   ]
 }
