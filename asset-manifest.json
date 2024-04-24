@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/css/main.cad0daf9.css",
-    "main.js": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.44a6ad67.js",
+    "main.js": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.c1889355.js",
     "static/js/453.75523a59.chunk.js": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/453.75523a59.chunk.js",
     "static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.jpg": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.67521133fa27d00a32ff.jpg",
     "static/media/cioppino-seafood-tomato-stew.png": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/media/cioppino-seafood-tomato-stew.bb4e4975efb2d7f5bef7.png",
@@ -26,11 +26,11 @@
     "static/media/delivery-icon.svg": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/media/delivery-icon.0ecbef31eda860932b64f59bb949f4cd.svg",
     "index.html": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/index.html",
     "main.cad0daf9.css.map": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/css/main.cad0daf9.css.map",
-    "main.44a6ad67.js.map": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.44a6ad67.js.map",
+    "main.c1889355.js.map": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/main.c1889355.js.map",
     "453.75523a59.chunk.js.map": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/static/js/453.75523a59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cad0daf9.css",
-    "static/js/main.44a6ad67.js"
+    "static/js/main.c1889355.js"
   ]
 }
