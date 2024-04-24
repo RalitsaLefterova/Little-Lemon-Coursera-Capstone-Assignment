@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Little Lemon Website - Coursera Assignment",
-  "homepage": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment/",
+  "homepage": "https://ralitsalefterova.github.io/Little-Lemon-Coursera-Capstone-Assignment",
   "scripts": {
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "build": "react-scripts build",
