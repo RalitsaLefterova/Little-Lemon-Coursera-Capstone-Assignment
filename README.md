@@ -192,13 +192,13 @@ npm test
 
 ## Helpful Resources
 
-TODO: add the website for images
-
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 - [Malven's Grid Cheatsheet](https://grid.malven.co/)
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
+- [Free Photos](https://www.vecteezy.com/free-photos)
+- [Free Avatar Images](https://www.freepik.com/free-photos-vectors/avatar)
 
 <!-- AUTHOR -->
 
