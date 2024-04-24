@@ -199,6 +199,8 @@ TODO: add the website for images
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
+- [Free Photos](https://www.vecteezy.com/free-photos)
+- [Free Avatar Images](https://www.freepik.com/free-photos-vectors/avatar)
 
 <!-- AUTHOR -->
 
