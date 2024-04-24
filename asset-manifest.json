@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.659a6043.css",
-    "main.js": "./static/js/main.e5f0380d.js",
+    "main.js": "./static/js/main.66e1fc6b.js",
     "static/js/453.75523a59.chunk.js": "./static/js/453.75523a59.chunk.js",
     "static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.jpg": "./static/media/dolma-stuffed-grape-leaves-with-rice-and-meat-on-dark-table.67521133fa27d00a32ff.jpg",
     "static/media/cioppino-seafood-tomato-stew.png": "./static/media/cioppino-seafood-tomato-stew.bb4e4975efb2d7f5bef7.png",
@@ -26,11 +26,11 @@
     "static/media/delivery-icon.svg": "./static/media/delivery-icon.0ecbef31eda860932b64f59bb949f4cd.svg",
     "index.html": "./index.html",
     "main.659a6043.css.map": "./static/css/main.659a6043.css.map",
-    "main.e5f0380d.js.map": "./static/js/main.e5f0380d.js.map",
+    "main.66e1fc6b.js.map": "./static/js/main.66e1fc6b.js.map",
     "453.75523a59.chunk.js.map": "./static/js/453.75523a59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.659a6043.css",
-    "static/js/main.e5f0380d.js"
+    "static/js/main.66e1fc6b.js"
   ]
 }
