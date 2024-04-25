@@ -45,9 +45,18 @@ This repository contains the final assignment **'Booking a table on the Little L
 
 <details>
   <summary>View screenshots</summary>
-<p align="center">
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-</p>
+    <p align="center">
+    ![home-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/5d6a4bba-0722-4843-95e2-f3efb55a00b7)
+    </p>
+    <p align="center">
+    ![about-us-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0c82e9dd-7016-4730-878f-12cebfdc8a48)
+    </p>
+    <p align="center">
+    ![reservations-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0dd12d77-7fd0-4d02-bfcf-fdcba9388981)
+    </p>
+    <p align="center">
+    ![booking-confirmed-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/21066a47-fa8a-46a7-82b1-0948ebe0f075)
+    </p>
 </details>
 
 ### Technologies Used
@@ -115,7 +124,7 @@ Once the wireframes were finalized, I transitioned to creating interactive proto
 
 Screenshots of the wireframes and prototypes created in Figma are provided below. For a more interactive experience, you can access the full Figma project by following the link provided.
 
-[View Figma Project](link_to_figma_project)
+[View Figma Project](https://www.figma.com/@ralitsa_lefterova)
 
 From my Figma account, you can also view the mobile version of the 'Little Lemon Website', which is my final assignment for ['Principles of UX/UI Design'](https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-front-end-developer) course, also part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer).
 
