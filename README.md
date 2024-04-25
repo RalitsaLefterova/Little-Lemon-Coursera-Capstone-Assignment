@@ -1,6 +1,6 @@
 # Little Lemon Website - Coursera Assignment
 
-Demo: [Little Lemon](https://example.com)
+Demo: [Little Lemon](https://little-lemon-restaurant-pl.netlify.app/)
 
 This repository contains the final assignment **'Booking a table on the Little Lemon website'** for the ['Front-End Developer Capstone'](https://www.coursera.org/learn/meta-front-end-developer-capstone) course, part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
 
@@ -82,7 +82,7 @@ During the development of the 'Little Lemon Website', I invested time in creatin
 
 I began the design process by sketching rough wireframes to outline the basic structure and flow of the website. These wireframes served as a blueprint for the layout of each page, helping to ensure a clear and intuitive user experience.
 
-<!-- <details>
+<details>
   <summary>View wireframes</summary>
 
   <p align="center"><strong>Home Page Wireframe:</strong></p>
@@ -105,7 +105,7 @@ I began the design process by sketching rough wireframes to outline the basic st
     <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/07fee170-f70a-47bb-8f2f-2410e418cff1" alt="booking-confirmed-wireframe" width="350">
   </p>
 
-</details> -->
+</details>
 
 ### Prototypes
 
