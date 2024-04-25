@@ -45,17 +45,21 @@ This repository contains the final assignment **'Booking a table on the Little L
 
 <details>
   <summary>View screenshots</summary>
+  <p><strong>Home Page:</strong></p>
     <p align="center">
-    ![home-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/5d6a4bba-0722-4843-95e2-f3efb55a00b7)
+      <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/5d6a4bba-0722-4843-95e2-f3efb55a00b7" alt="home page">
     </p>
+  <p><strong>About Us Page:</strong></p>
     <p align="center">
-    ![about-us-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0c82e9dd-7016-4730-878f-12cebfdc8a48)
+      <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0c82e9dd-7016-4730-878f-12cebfdc8a48" alt="about us page">
     </p>
+  <p><strong>Reservation Page:</strong></p>
     <p align="center">
-    ![reservations-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0dd12d77-7fd0-4d02-bfcf-fdcba9388981)
+      <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/0dd12d77-7fd0-4d02-bfcf-fdcba9388981" alt="reservations page">
     </p>
+  <p><strong>Booking Confirmed Page:</strong></p>
     <p align="center">
-    ![booking-confirmed-page](https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/21066a47-fa8a-46a7-82b1-0948ebe0f075)
+      <img src="https://github.com/RalitsaLefterova/Little-Lemon-Coursera-Capstone-Assignment/assets/11258085/21066a47-fa8a-46a7-82b1-0948ebe0f075" alt="booking confirmed page">
     </p>
 </details>
 
