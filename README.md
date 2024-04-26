@@ -128,7 +128,7 @@ Once the wireframes were finalized, I transitioned to creating interactive proto
 
 Screenshots of the wireframes and prototypes created in Figma are provided below. For a more interactive experience, you can access the full Figma project by following the link provided.
 
-[View Figma Project](https://www.figma.com/@ralitsa_lefterova)
+[View Figma Project - https://www.figma.com/@ralitsalefterov](https://www.figma.com/@ralitsalefterov)
 
 From my Figma account, you can also view the mobile version of the 'Little Lemon Website', which is my final assignment for ['Principles of UX/UI Design'](https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-front-end-developer) course, also part of ['Meta Front-End Developer Professional Certificate'](https://www.coursera.org/professional-certificates/meta-front-end-developer).
 
